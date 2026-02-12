@@ -30,3 +30,11 @@ Semiconductor wafer defect classification is critical for ensuring high precisio
 | Inference Speed | **8.3ms** | 14.7ms (Swin) | **1.77× faster** |
 | GPU Memory | **412MB** | 1,843MB (Swin) | **4.47× less** |
 | Training Time | **2.5 hrs** | 8.3 hrs (ViT-Base) | **3.3× faster** |
+
+## 🎯 Key Results
+| Model | Acc. | Params | Speed | Memory |
+|-------|------|--------|-------|--------|
+| **ViT-Tiny** | 98.41% | 5.7M | 8.3ms | 412MB |
+| Swin Trans. | 97.48% | 28.3M | 14.7ms | 1.8GB |
+| ResNet-50 | 96.58% | 25.6M | 11.2ms | 1.1GB |
+| MobileNet-V3 | 82.47% | 5.4M | 6.1ms | 389MB |
