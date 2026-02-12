@@ -12,3 +12,27 @@ Semiconductor wafer defect classification is critical for ensuring high precisio
 | ViT-Base  | 12     | 768         | 12              | 3072     | ~86 M |
 
 
+## \begin{table}[!t]
+\centering
+\caption{Performance Comparison of the proposed approach (ViT-Tiny) vs SOTA models based on validation accuracy and number of parameters }
+\label{tab:statistical_comparison}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Model} & \textbf{Val. Accuracy (\%)} & \textbf{Parameters} \\
+\midrule
+
+ViT-Tiny (Ours) & \textbf{98.41 $\pm$ 0.23} & 5.7M \\
+Swin Transformer & 97.48 $\pm$ 0.31 & 28.3M \\
+MSF-Trans & 97.21 $\pm$ 0.28 & 22.1M \\
+ResNet-50 & 96.58 $\pm$ 0.35 & 25.6M \\
+AlexNet & 96.87 $\pm$ 0.41 & 61.1M \\
+ResNet-101 & 95.39 $\pm$ 0.38 & 44.5M \\
+ResNet-152 & 95.31 $\pm$ 0.42 & 60.2M \\
+DC-Net & 93.18 $\pm$ 0.46 & 19.8M \\
+EfficientNet-B7 & 90.93 $\pm$ 0.52 & 66.0M \\
+ConvNeXt & 89.53 $\pm$ 0.48 & 88.6M \\
+MobileNet-V3 & 82.47 $\pm$ 0.61 & 5.4M \\
+
+\bottomrule
+\end{tabular}
+\end{table}
